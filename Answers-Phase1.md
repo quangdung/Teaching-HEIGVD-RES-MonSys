@@ -165,6 +165,27 @@ What HTTP response did you get?
 # -------------------------------
 ```
 
+```
+# -- YOUR ANSWER TO QUESTION 9 --
 
+What procedure did you follow to validate the configuration of 
+your new web nodes? 
+
+Provide details and evidence (command results, etc.) that your 
+setup is correct.
+# -------------------------------
+```
+
+```
+# -- YOUR ANSWER TO QUESTION 10 --
+
+What procedure did you follow to validate the configuration of 
+your complete infrastructure?
+
+Provide details and evidence (command results, etc.) that your 
+setup is correct.
+
+# -------------------------------
+```
 
 
