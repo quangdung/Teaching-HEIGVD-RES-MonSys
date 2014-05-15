@@ -1,13 +1,13 @@
 # Answers, Phase 1
 
-```
-# -- INSERT YOUR NAMES HERE -----
 Quang Dung, Ngo
 First name, Last name
 
-We certify that we have done all the lab tasks and we have a running environment on our 
-machine to prove it. We are ready to demonstrate it at any time and to explain the process
-we have followed.
+We certify that we have done all the lab tasks and we have a running environment on our machine to prove it. We are ready to demonstrate it at any time and to explain the process we have followed.
+# -------------------------------
+
+# -- YOUR ANSWER TO QUESTION 1 --
+
 # -------------------------------
 
 the output of the command `vagrant up`
@@ -68,31 +68,43 @@ Bringing machine 'default' up with 'virtualbox' provider...
 ==> default: -- Container: web-node-1
 ==> default: -- Container: web-node-2
 ==> default: -- Container: app-node
-
-```
-# -- YOUR ANSWER TO QUESTION 1 --
-
-# -------------------------------
 ```
 
-```
+
 # -- YOUR ANSWER TO QUESTION 2 --
 
 # -------------------------------
+the ouput of the command `vagrant ssh`
+```
+Welcome to Ubuntu 14.04 LTS (GNU/Linux 3.13.0-24-generic x86_64)  
+ * Documentation:  https://help.ubuntu.com/
+Last login: Tue Apr 22 19:47:09 2014 from 10.0.2.2
+``` 
+the ouput of the command `uname -a`
+```
+Linux ubuntu-14 3.13.0-24-generic #46-Ubuntu SMP Thu Apr 10 19:11:08 UTC 2014 x86_64 x86_64 x86_64 GNU/Linux
+vagrant@ubuntu-14:~$
 ```
 
-```
 # -- YOUR ANSWER TO QUESTION 3 --
 
 # -------------------------------
 ```
-
+vagrant@ubuntu-14:~$ docker images
+REPOSITORY          TAG                 IMAGE ID            CREATED             VIRTUAL SIZE
+heig/app-nodejs     latest              0bcb412a75c4        6 days ago          398.9 MB
+heig/web-apache     latest              7dd7b9b87665        6 days ago          411.9 MB
+heig/rp-nginx       latest              7f4d7b1ffc35        6 days ago          637.9 MB
+dockerfile/ubuntu   latest              cbc81be8f75e        2 weeks ago         378.6 MB
 ```
 # -- YOUR ANSWER TO QUESTION 4 --
 
 # -------------------------------
 ```
-
+vagrant@ubuntu-14:~$ docker ps
+CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS
+NAMES
+vagrant@ubuntu-14:~$
 ```
 # -- YOUR ANSWER TO QUESTION 5 --
 
