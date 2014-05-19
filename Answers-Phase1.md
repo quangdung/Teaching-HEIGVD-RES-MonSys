@@ -218,10 +218,32 @@ Brought to you by the University of Applied Sciences of Western Switzerland
 # -- YOUR ANSWER TO QUESTION 8 --
 
 Which command did you type on the terminal to establish the connection?
+```
+telnet www.monsys.com 9090
+```
 
 What HTTP request did you type and send?
+```
+GET /ajax/resources/nodes HTTP/1.1
+Host: www.monsys.com
+```
 
 What HTTP response did you get?
+```
+HTTP/1.1 200 OK
+Server: nginx/1.6.0
+Date: Mon, 19 May 2014 12:39:34 GMT
+Content-Type: application/json
+Transfer-Encoding: chunked
+Connection: keep-alive
+
+fb
+[{"name":"P-001","description":"Epson Printer","currentLoadLevel":14.26455983892
+0832},{"name":"P-002","description":"Canon Printer","currentLoadLevel":97.079196
+80513442},{"name":"P-003","description":"HP Printer","currentLoadLevel":41.18168
+014101684}]
+0
+```
 # -------------------------------
 ```
 
